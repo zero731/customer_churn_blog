@@ -1,0 +1,78 @@
+position,type,subtype,variable,description,var_type
+1,Behavior,Spending,Revenue,Mean monthly revenue,num
+2,Behavior,Usage,Mou,Mean monthly minutes of use,num
+3,Behavior,Spending,Recchrge,Mean total recurring charge,num
+4,Behavior,Usage,Directas,Mean number of director assisted calls,num
+5,Behavior,Usage,Overage,Mean overage minutes of use,num
+6,Behavior,Usage,Roam,Mean number of roaming calls,num
+7,Behavior,Usage,Changem,% Change in minutes of use,num
+8,Behavior,Usage,Changer,% Change in revenues,num
+9,Behavior,Usage,Dropvce,Mean number of dropped voice calls,num
+10,Behavior,Usage,Blckvce,Mean number of blocked voice calls,num
+11,Behavior,Usage,Unansvce,Mean number of unanswered voice calls,num
+12,Marketing,Marketing,Custcare,Mean number of customer care calls,num
+13,Behavior,Usage,Threeway,Mean number of threeway calls,num
+14,Behavior,Usage,Mourec,Mean unrounded mou received voice calls,num
+15,Behavior,Usage,Outcalls,Mean number of outbound voice calls,num
+16,Behavior,Usage,Incalls,Mean number of inbound voice calls,num
+17,Behavior,Usage,Peakvce,Mean number of in and out peak voice calls,num
+18,Behavior,Usage,Opeakvce,Mean number of in and out off-peak voice calls,num
+19,Behavior,Usage,Dropblk,Mean number of dropped or blocked calls,num
+20,Behavior,Usage,Callfwdv,Mean number of call forwarding calls,num
+21,Behavior,Usage,Callwait,Mean number of call waiting calls,num
+22,Behavior,Tenure,Months,Months in Service,num
+23,Behavior,Tenure,Uniqsubs,Number of Uniq Subs,count
+24,Behavior,Tenure,Actvsubs,Number of Active Subs,count
+25,Demographics,Location,Csa,Communications Service Area,cat
+26,Behavior,Handset,Phones,# Handsets Issued,count
+27,Behavior,Handset,Models,# Models Issued,count
+28,Behavior,Handset,Eqpdays,Number of days of the current equipment,num
+29,Demographics,Household,Customer,Customer ID,id
+30,Demographics,Household,Age1,Age of first HH member,num
+31,Demographics,Household,Age2,Age of second HH member,num
+32,Demographics,Household,Children,Presence of children in HH,bin
+33,Demographics,Financial,Credita,Highest credit rating - a,bin
+34,Demographics,Financial,Creditaa,High credit rating - aa,bin
+35,Demographics,Financial,Creditb,Good credit rating - b,bin
+36,Demographics,Financial,Creditc,Medium credit rating - c,bin
+37,Demographics,Financial,Creditde,Low credit rating - de,bin
+38,Demographics,Financial,Creditgy,Very low credit rating - gy,bin
+39,Demographics,Financial,Creditz,Lowest credit rating - z,bin
+40,Demographics,Location,Prizmrur,Prizm code is rural,bin
+41,Demographics,Location,Prizmub,Prizm code is suburban,bin
+42,Demographics,Location,Prizmtwn,Prizm code is town,bin
+43,Behavior,Handset,Refurb,Handset is refurbished,bin
+44,Behavior,Handset,Webcap,Hanset is web capable,bin
+45,Demographics,Household,Truck,Subscriber owns a truck,bin
+46,Demographics,Household,Rv,Subscriber owns a recreational vehicle,bin
+47,Demographics,Financial,Occprof,Occupation - professional,bin
+48,Demographics,Financial,Occcler,Occupation - clerical,bin
+49,Demographics,Financial,Occcrft,Occupation - crafts,bin
+50,Demographics,Financial,Occstud,Occupation - student,bin
+51,Demographics,Financial,Occhmkr,Occupation - homemaker,bin
+52,Demographics,Financial,Occret,Occupation - retired,bin
+53,Demographics,Financial,Occself,Occupation - self-employed,bin
+54,Demographics,Household,Ownrent,Home ownership is missing,bin
+55,Demographics,Household,Marryun,Marital status unknown,bin
+56,Demographics,Household,Marryyes,Married,bin
+57,Demographics,Household,Marryno,Not Married,bin
+58,Marketing,Marketing,Mailord,Buys via mail order,bin
+59,Marketing,Marketing,Mailres,Responds to mail offers,bin
+60,Marketing,Marketing,Mailflag,Has chosen not to be solicited by mail,bin
+61,Demographics,Household,Travel,Has traveled to non-US country,bin
+62,Demographics,Household,Pcown,Owns a personal computer,bin
+63,Demographics,Household,Creditcd,Possesses a credit card,bin
+64,Marketing,Marketing,Retcalls,Number of calls previously made to retention team,count
+65,Marketing,Marketing,Retaccpt,Number of previous retention offers accepted,count
+66,Demographics,Household,Newcelly,Known to be a new cell phone user,bin
+67,Demographics,Household,Newcelln,Known not to be a new cell phone user,bin
+68,Marketing,Marketing,Refer,Number of referrals made by subscriber,count
+69,Demographics,Financial,Incmiss,Income data is missing,bin
+70,Demographics,Financial,Income,Income (0=>missing),ord
+71,Demographics,Household,Mcycle,Owns a motorcycle,bin
+72,Demographics,Household,Creditad,Number of adjustments made to customer credit rating,count
+73,Behavior,Spending,Setprcm,Missing data on handset price,bin
+74,Behavior,Spending,Setprc,Handset price (0=>missing),bin
+75,Marketing,Marketing,Retcall,Customer has made call to retention team,bin
+76,Marketing,Marketing,Churn,"Has the customer churned during month (1=Yes, 0=No)",bin
+77,Marketing,Marketing,Sample,Validation sample,id
