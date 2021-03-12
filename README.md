@@ -8,7 +8,7 @@ You’re a general manager for a cellular provider. Your company sells cell phon
 You know that revenue is a composition of **new business**, **upsell**, and **churn**. A lack of new business doesn't appear to be the issue and upsell is of less immediate concern. You decide to investigate **customer churn**, the loss of customers using your product or subscribing to your services.
 
 ## Blog Post
-A detailed description of the overall process and results of the analysis can be found in [this post]() (link will be provided when article is published).
+A detailed description of the overall process and results of the analysis can be found in [this post](https://propheto.medium.com/demystifying-data-science-a-case-study-on-customer-churn-4bd90f5ae977).
 
 ## Repository Guide
 
